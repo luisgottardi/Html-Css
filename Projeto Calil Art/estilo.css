@@ -1,0 +1,155 @@
+body{
+	background: url('geometria.jpg');
+	font:16px Arial, Helvetica, sans-serif;
+}
+
+#principal{
+	text-align: center;
+	width: 100%;
+}
+
+#menu{
+	z-index: 100;
+	position: sticky;
+	top: 0;
+	border: none;
+	text-align: center;
+	width: 100%;
+	background: black;
+	font-weight: white bold;
+	padding: 10px;
+}
+
+#menu li{
+	list-style: none;
+	padding: 15px;
+}
+
+#menu ul{
+	display: flex;
+	position: sticky;
+	top: 0px;
+	width: 450px;
+	margin: 0 auto;
+}
+
+#conteudo{
+	text-align: center;
+	width: 900px;
+	margin: 20px auto 0	;
+	background-color: #808080;
+	color: black;
+	font-weight: bold;
+	padding: 0 15px;
+	line-height: 1.5rem;
+}
+
+#rodape{
+	text-align: center;
+	background-color: black;
+	font:1em bold Arial, Helvetica, sans-serif;
+	width: 100%;
+	padding: 2px;
+	margin: 0 auto;
+}
+
+.title{
+	list-style: none;
+}
+
+.centralizar{
+	text-align: middle;
+	color: white;
+}
+
+.img-capa{
+	background-color: black;
+}
+
+.img-capa img{
+	width: 250px;
+}
+
+.banner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('tattoo5.jpg');
+	width: 100%;
+	height:100vh;
+}
+.capa{
+	width: 100%;
+	height: 100vh;
+
+}
+
+.imgbio{
+	border: 5px ridge black;
+	margin: 0 auto;
+    width: 600px;
+	height: 450px;
+}
+
+.img-contato{
+	position: relative;
+    top: 50%; 
+    left: 25%;
+	width: 800px; 
+	height: 450px;
+}
+
+.menor{
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+
+}
+
+
+.olho{
+	border: 5px ridge black;
+	margin: 0 auto;
+	width: 500px; 
+	height: 350px;
+}
+
+.centralizar1{
+	text-align: center;
+	color: black;
+}
+
+#divcontato{
+	background-color: #4F4F4F;
+	border:3px white ridge;
+	width: 400px;
+	height: 250px;
+	margin: 0 auto;
+
+}
+
+.banner h1{
+	font-family: 'Grenze Gotisch', cursive;
+	text-shadow: 2px 2px white;
+	font-weight: 900;
+	font-size: 5em;
+}
+
+
+h1{
+	padding: 10px;
+	color: black;
+	font-size: 1.5em;
+}
+
+h4{
+
+	font-size: 1.1em;
+}
+
+
+a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
